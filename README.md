@@ -19,6 +19,9 @@ Blink.
 Lit up the LED using the button.
 
 
+We added another button and used the same wire pattern as for the other button. Now the LED can be controled with two different buttons.
+
+
 ## Questions
 How do you code the light so that it stays on when pressed?
 
