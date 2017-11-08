@@ -19,7 +19,7 @@ digitalWrite(SWITCHpin, HIGH);
 void loop() {
   // put your main code here, to run repeatedly:
   //add delay before code is run (1 second)
-   delay(100);
+   delay(50);
   SWITCHstate = digitalRead(SWITCHpin);
   
    
