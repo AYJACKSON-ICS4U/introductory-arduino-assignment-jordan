@@ -1,0 +1,20 @@
+declare var
+  LEDpin
+  SWITCHpin
+  LEDstate
+  SWITCHstate
+  lastSWITCHstate
+  newTime
+  lastTime
+create setup
+  set pinModes
+  turn on pullup resistor
+  
+Loop
+  add a delay
+  run program when newtime - lastTime > 50
+    find current switch state
+    check to see if previous switch state was high and the current one is low
+      have the state of the LED change states
+    set previous switch state
+    set lastTime
