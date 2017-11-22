@@ -12,6 +12,9 @@ Have light stay on for a certain amount of time when pressed.
 Getting the light to work like a light switch.
 
 
+We can't get the LED's to go on one at a time.
+
+
 ## Accomplished
 Blink.
 
@@ -25,8 +28,14 @@ We added another button and used the same wire pattern as for the other button. 
 We added a second resistor to see if it would make the LED dimmer, but we couldn't really notice a difference.  When you remove all resistors though, the LED is very bright.
 
 
+We got one of the three LED's to work using the Simple Toggle program.
+
+
 ## Questions
 How do you code the light so that it stays on when pressed?
 
 
 How do you get it so that if you press the button once the LED will light up and twice it goes off?
+
+
+How do you write the code and arrange the wires to have 6 LED's work one at a time?
