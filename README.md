@@ -21,6 +21,11 @@ Solved
 We can't get the LED's to go on one at a time.
 
 
+No program could upload to the board
+
+Solved - The wire at D13 was interfering with the ground reaching the nano. The nano could identify that the power outlet didn't have a ground at the other end so it wouldn't run / couldn't run. Once the interfering wire was removed, the ground was once again connected to the Arduino Nano and the blink program could run.
+
+
 ## Accomplished
 Blink.
 
@@ -36,7 +41,11 @@ We added a second resistor to see if it would make the LED dimmer, but we couldn
 
 We got one of the three LED's to work using the Simple Toggle program.
 
+
 Got two lEDs to light up at the same time.
+
+
+Set up circuit for 6 LEDs.
 
 ## Questions
 How do you code the light so that it stays on when pressed?
